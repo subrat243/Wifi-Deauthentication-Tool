@@ -1,9 +1,3 @@
-# Wifi-Deauthentication-Tool
-Below is a **README.md** draft tailored to your Bash script.
-It explains the tool’s purpose, requirements, setup, and usage, while clearly warning about legal considerations.
-
----
-
 # Wi-Fi Deauthentication Tool
 
 > **⚠️ Legal notice:**
@@ -47,7 +41,7 @@ It leverages the `aircrack-ng` suite (`airodump-ng`, `aireplay-ng`) for scanning
 3. Run with root privileges:
 
    ```bash
-   sudo ./wifi-deauth.sh
+   sudo ./wifideauth.sh
    ```
 
 ---
@@ -90,7 +84,7 @@ The script presents a numbered menu:
   sudo airmon-ng stop wlan0mon
   sudo systemctl start NetworkManager
   ```
-* Adjust packet count carefully to avoid unnecessary disruption—even on your own lab network.
+* Adjust packet count carefully to avoid unnecessary disruption even on your own lab network.
 
 ---
 
