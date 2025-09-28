@@ -1,4 +1,3 @@
-```markdown
 # Wi-Fi Deauthentication Tool
 
 A Bash script for performing Wi-Fi deauthentication attacks using the Aircrack-ng suite. This tool is designed for educational purposes and authorized penetration testing.
