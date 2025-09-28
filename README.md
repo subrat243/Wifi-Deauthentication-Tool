@@ -3,8 +3,6 @@
 
 A Bash script for performing Wi-Fi deauthentication attacks using the Aircrack-ng suite. This tool is designed for educational purposes and authorized penetration testing.
 
-![Wi-Fi Deauthentication Tool](https://img.shields.io/badge/License-MIT-blue.svg) ![Bash](https://img.shields.io/badge/Language-Bash-green.svg)
-
 ## Disclaimer
 **This tool is for educational and authorized penetration testing purposes only.** Unauthorized use is illegal. Ensure you have explicit permission before testing any network. The developers are not responsible for misuse.
 
@@ -77,4 +75,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 ---
 
 **Note**: This tool is part of a cybersecurity toolkit and should be used responsibly.
-```
