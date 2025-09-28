@@ -29,6 +29,7 @@ A Bash script for performing Wi-Fi deauthentication attacks using the Aircrack-n
 2. Install the Aircrack-ng suite (if not already installed):
    ```bash
    sudo apt update && sudo apt install aircrack-ng
+   sudo ./wifideauth.sh
    ```
 
 3. Make the script executable:
@@ -70,6 +71,24 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+   This often creates `wlan0mon`.
+2. Start the script and use option `6` to set the interface to `wlan0mon`.
+3. Scan (option `1`) and identify the target BSSID and channel.
+4. Use option `2` to lock onto the network.
+5. Choose option `3` or `4` to send deauthentication packets.
+
+---
+
+## Notes
+
+* **Revert to managed mode** after testing:
+
+  ```bash
+  sudo airmon-ng stop wlan0mon
+  sudo systemctl start NetworkManager
+  ```
+* Adjust packet count carefully to avoid unnecessary disruption even on your own lab network.
 
 ---
 
